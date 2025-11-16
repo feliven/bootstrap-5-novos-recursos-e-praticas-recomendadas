@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap");
+
 body {
+  font-family: Barlow, sans-serif;
   --bege: #e6e0d6;
   --marrom-escuro: #816d4f;
   --marrom-claro: #b29463;
+}
+
+input[type="checkbox"] {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
 }
