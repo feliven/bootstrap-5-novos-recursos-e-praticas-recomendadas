@@ -95,7 +95,14 @@
                 Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos salgados e sobremesas. Uma
                 excelente opção para quem busca um lugar tranquilo e aconchegante.
               </p>
-              <a href="#" class="btn botao-padrao w-100 fw-bold">Quero detalhes</a>
+              <a
+                href="#"
+                class="btn botao-padrao w-100 fw-bold"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#canvas-1"
+                aria-controls="offcanvasRight"
+                >Quero detalhes</a
+              >
             </div>
           </div>
 
@@ -107,7 +114,14 @@
                 Buffet e catering personalizado para eventos, produções e celebrações. Com um menu variado e adaptável
                 às preferências do cliente, atendimento atencioso e profissional.
               </p>
-              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3">Quero detalhes</a>
+              <a
+                href="#"
+                class="btn botao-padrao w-100 fw-bold mt-3"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#canvas-2"
+                aria-controls="offcanvasRight"
+                >Quero detalhes</a
+              >
             </div>
           </div>
 
@@ -123,7 +137,14 @@
                 Para quem deseja desfrutar no conforto de casa, oferecemos delivery dos produtos. Com o mesmo cardápio
                 variado de sempre, sem perder nosso sabor e padrão de qualidade.
               </p>
-              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3">Quero detalhes</a>
+              <a
+                href="#"
+                class="btn botao-padrao w-100 fw-bold mt-3"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#canvas-3"
+                aria-controls="offcanvasRight"
+                >Quero detalhes</a
+              >
             </div>
           </div>
         </div>
@@ -139,5 +160,32 @@
       </section>
       <section class="banners banner-3"></section>
     </main>
+
+    <!-- canvas 1 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Café & Bistrô</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">...</div>
+    </div>
+
+    <!-- canvas 2 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Buffet</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">...</div>
+    </div>
+
+    <!-- canvas 3 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Delivery</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">...</div>
+    </div>
   </body>
 </html>
