@@ -33,3 +33,7 @@ input[type="checkbox"]:focus {
   background-position: center;
   background-attachment: fixed;
 }
+
+.banners-titulo {
+  --bs-bg-opacity: 0.6;
+}
