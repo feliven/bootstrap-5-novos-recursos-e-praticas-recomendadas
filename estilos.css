@@ -54,3 +54,7 @@ input[type="checkbox"]:focus {
 .botao-padrao:hover {
   background-color: var(--marrom-escuro);
 }
+
+#range1::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
