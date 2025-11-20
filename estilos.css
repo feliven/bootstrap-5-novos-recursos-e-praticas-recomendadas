@@ -21,6 +21,24 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 
+footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+
+  .nav-link:hover,
+  .card-body,
+  .offcanvas,
+  .accordion-item,
+  .accordion-button,
+  .form-select,
+  i {
+    color: white;
+  }
+}
+
 .banner-1 {
   background-image: url(./assets/banner-1.png);
 }
@@ -56,8 +74,5 @@ input[type="checkbox"]:focus {
 }
 
 #range1::-webkit-slider-thumb {
-  background-color: var(--marrom-claro);
-}
-footer {
   background-color: var(--marrom-claro);
 }
